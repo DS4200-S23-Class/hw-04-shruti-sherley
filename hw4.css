@@ -1,0 +1,49 @@
+.heading{
+    text-align: center;
+}
+
+.Parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    width: 60%;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.child2 {
+    width: 40%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+#frame {
+    width: 1000px;
+    height: 1000px;
+}
+
+.graph {
+    height: 500px;
+    width: 800px;
+  }
+  
+  .scatter .grid {
+    stroke: hsl(0, 0%, 0%);
+    stroke-dasharray: 0;
+    stroke-width: 3;
+  }
+
+circle:hover {
+    fill:  purple;
+}
+
+.navy {
+    border-color: yellow;
+    border-width: 10px;
+}
