@@ -1,4 +1,4 @@
-body {
+.body {
     font-family: Arial; 
 }
 
@@ -9,7 +9,7 @@ body {
     height: 120;
 }
 
-h2 {
+.h2 {
     text-align:center;
 };
 
